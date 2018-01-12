@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://aframe.io/releases/0.3.0/aframe.min.js"></script>
+<script src="https://cdn.rawgit.com/AltspaceVR/AltspaceSDK/v2.4.2/dist/altspace.min.js"></script>
+</head>
+<body>
+<a-scene altspace="fullspace: true">
+	<a-assets>
+		<a-asset-item id="model" src="https://poly.googleapis.com/downloads/fonquagagGG/3esrdy0ekAv/model.obj"></a-asset-item>
+		<a-asset-item id="material" src="https://poly.googleapis.com/downloads/fonquagagGG/3esrdy0ekAv/materials.mtl"></a-asset-item>
+  </a-assets>
+  <a-entity obj-model="obj: #model; mtl: #material" scale="1 1 1" position="0 0 0" rotation="0 0 0"></a-entity>
+</a-scene>
+</body>
+</html>
